@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>London Trip Blog</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/xyj7upq.css">
+
+</head>
+<body class="container" style="font-family: marigny, sans-serif; font-weight: 400; font-style: normal">
+
+    <nav class="navbar navbar-light" style="padding: 2.5%; border-radius: 5px; background-image: url('lond1.jpg'); 
+    font-family: marigny, sans-serif; font-weight: 400; font-style: normal">
+    </nav>
+
+    <br>
+
+    <div class="card-container">
+        <div class="card-body">
+            <div class="card mb-2">
+                <img src="https://wallpaperaccess.com/full/180132.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">
+                    Welcome to the London Trip Blog!</h5>
+                  <p class="card-text">Here you can share London tours, restaurants, museums, and experiences
+                    for all to enjoy!
+                  </p>
+                </div>
+              </div>
+        </div>
+    </div>
+    <br>
+    <div class="card-container">
+        <div class="card-body">
+            <div class="card-header">
+                Make a blog post below! Be sure to add important details like location and cost. Thanks!
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-name">Your Name:</label><br>
+                        <input type="text" class="form-control" id="new-name">
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-suggestion">Suggestion:</label>
+                        <input type="text" class="form-control" id="new-suggestion">
+                    </div>
+                </div>
+            </div>
+    
+            <br>
+    
+            <div>
+                <button id="add" class="btn btn-success from-control">POST</button>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    <br>
+
+    <table id="list" class="table table-info table-striped" >
+        <tr>
+            <th>Name</th>
+            <th>Suggestion</th>
+            <th>Remove Post</th>
+        </tr>
+    </table>
+
+    <nav class="navbar navbar-light" style="padding: 2.5%; border-radius: 5px; background-image: url('lond1.jpg'); 
+    font-family: marigny, sans-serif; font-weight: 400; font-style: normal">
+    </nav>
+
+    <script src="new.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    
+</body>
+</html>
