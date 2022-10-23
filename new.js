@@ -1,4 +1,8 @@
 
+/* In this CRUD app you can create, read, and delete posts made by the user. I was unable to get a MOCKAPI
+to work on this website but I am able to add each post to an array and have those posts removed and added
+as necessary. I will continue working on getting an API to work with this website. Thanks! */
+
 let id = 0;
 let postList = [];
 
